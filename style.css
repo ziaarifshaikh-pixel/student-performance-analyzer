@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 11px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+.result-section {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    border-left: 5px solid #333;
+}
+
+.result-section h2 {
+    margin-bottom: 15px;
+}
+
+.result-section p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.result-section span {
+    font-weight: bold;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+}
+
+.reset-btn {
+    background: #777;
+}
+
+.reset-btn:hover {
+    background: #555;
+}
